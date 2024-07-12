@@ -7,6 +7,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import FormSteps from '../components/FormSteps';
 import HowItWorks from '@/components/Howitworks';
+import AreaServices from '@/components/Area-Services';
 
 export default function Home() {
 
@@ -15,7 +16,7 @@ export default function Home() {
       <NavBar />
       <div className="pt-16 flex flex-col md:flex-row items-center justify-center bg-gray-100">
         <div className="w-full md:w-1/2 p-8">
-          <h1 className="text-3xl text-[#023e8a] font-bold mb-4">SwiftSwap Deliveries</h1>
+          <h1 className="text-3xl text-[#023e8a] font-bold mb-4">SnabbDeal Deliveries</h1>
           <p className="text-lg">Delivering your second-hand treasures with care and efficiency. Fill in the form to schedule your delivery.</p>
         </div>
         <div className="w-full md:w-1/2 p-8">
@@ -47,6 +48,9 @@ export default function Home() {
             </Link>
           </div>
         </section>
+      </div>
+      <div>
+        <AreaServices />
       </div>
       <Footer />
     </div>

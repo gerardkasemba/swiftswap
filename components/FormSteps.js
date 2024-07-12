@@ -125,9 +125,9 @@ const FormSteps = () => {
   if (!isLoaded) return <div>Loading...</div>;
 
   // Generate the unique link (in a real application, this would be dynamically generated)
-  const uniqueLink = `https://swiftswap.com/schedule/${Math.random().toString(36).substr(2, 9)}`;
+  const uniqueLink = `https://SnabbDeal.com/schedule/${Math.random().toString(36).substr(2, 9)}`;
 
-  const messageToSeller = `I’m interested in purchasing your product(s). I’ll be using SwiftSwap to handle the pick-up and delivery. They are a trusted delivery service that specializes in marketplace transactions. Could you please select a convenient date and time for the pick-up and specify your preferred payment method using this link: ${uniqueLink} Thanks,`;
+  const messageToSeller = `I’m interested in purchasing your product(s). I’ll be using SnabbDeal to handle the pick-up and delivery. They are a trusted delivery service that specializes in marketplace transactions. Could you please select a convenient date and time for the pick-up and specify your preferred payment method using this link: ${uniqueLink} Thanks,`;
 
   return (
     <div className="w-full">
@@ -152,7 +152,7 @@ const FormSteps = () => {
               <div className="mt-4 p-4 border bg-white border-gray-300 rounded">
                 <p><strong>Copy this Message, and send to Seller:</strong></p>
                 <p id="messageToSeller">
-                  I’m interested in purchasing your product(s). I’ll be using SwiftSwap to handle the pick-up and delivery. They are a trusted delivery service that specializes in marketplace transactions. Could you please select a convenient date and time for the pick-up and specify your preferred payment method using this link: <br /><br /><a href={uniqueLink} target="_blank" rel="noopener noreferrer">{uniqueLink}</a><br /><br /> Thanks,
+                  I’m interested in purchasing your product(s). I’ll be using SnabbDeal to handle the pick-up and delivery. They are a trusted delivery service that specializes in marketplace transactions. Could you please select a convenient date and time for the pick-up and specify your preferred payment method using this link: <br /><br /><a href={uniqueLink} target="_blank" rel="noopener noreferrer">{uniqueLink}</a><br /><br /> Thanks,
                 </p>
                 <button type="button" onClick={() => copyMessage('messageToSeller')} className="mt-2 py-2 px-4 bg-blue-500 text-white rounded">Copy Message</button>
               </div> 

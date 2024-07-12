@@ -8,7 +8,7 @@ const HowItWorks = () => {
   return (
     <div className="">
       <div className="">
-        <div className="bg-white p-8 space-y-8">
+        <div className="bg-white py-12 px-8">
         <h1 className="text-2xl font-bold text-center mb-8">How It Works for Buyers</h1>
           <div className="space-y-4">
             <div className="flex flex-col md:flex-row md:space-x-4 items-center">
