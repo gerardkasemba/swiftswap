@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import FormSteps from '../components/FormSteps';
 import HowItWorks from '@/components/Howitworks';
 import AreaServices from '@/components/Area-Services';
+import Testimonial from '@/components/Testimonials';
 
 export default function Home() {
 
@@ -22,6 +23,9 @@ export default function Home() {
         <div className="w-full md:w-1/2 p-8">
           <FormSteps />
         </div>
+      </div>
+      <div>
+        <Testimonial />
       </div>
       <div className='p-0 m-0 w-full'>
         <HowItWorks />
